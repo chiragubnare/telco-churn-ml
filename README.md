@@ -124,6 +124,7 @@ secondary ranking metric.
 - **Threshold is slightly optimistic.** Hyperparameters and the threshold were selected on the same training data. The F1 curve is also flat near its peak, so the exact value is noisy.
 - **No temporal validation.** The data is a single snapshot without dates, so a random split cannot test drift.
 - **Small holdout.** About <n_pos> positive cases in the holdout, so metrics carry meaningful uncertainty.
+<<<<<<< HEAD
 
 ## If I had 2 more days
 
@@ -143,3 +144,5 @@ secondary ranking metric.
    paired fold differences. With roughly <n_pos> positive holdout cases, the
    difference between logistic regression and XGBoost may be within noise, and
    this tests whether the chosen model is actually better.
+=======
+>>>>>>> ef2e5f010f6c4ef45bb8cbd514158a7772277d82
